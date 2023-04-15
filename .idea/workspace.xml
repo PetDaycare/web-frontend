@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcccf4db-5632-49e8-b769-e1f16807f29a" name="Changes" comment="Installed aws amplify">
-      <change afterPath="$PROJECT_DIR$/src/aws-export.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="bcccf4db-5632-49e8-b769-e1f16807f29a" name="Changes" comment="Added a simple login and logout for reference">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681558286609</updated>
-      <workItem from="1681558294263" duration="1720000" />
+      <workItem from="1681558294263" duration="1870000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1681558654732</created>
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681559491179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a simple login and logout for reference">
+      <created>1681560153517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681560153517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Installed aws amplify" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed aws amplify" />
+    <MESSAGE value="Added a simple login and logout for reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a simple login and logout for reference" />
   </component>
 </project>
