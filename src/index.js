@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Amplify} from 'aws-amplify';
+import awsExports from './aws-export';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+Amplify.configure({
+    Auth: {
+        region: awsExports.REGION,
+        userPoolId: awsExports.USER_POOL_ID,
+        userPoolWebClientId: awsExports.USER_POOL_APP_CLIENT_ID
+    }
+})
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
